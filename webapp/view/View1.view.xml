@@ -1,0 +1,16 @@
+<mvc:View controllerName="sap.btp.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content />
+        <Panel id="_IDGenPanel" headerText="">
+                <FlexBox id="_IDGenFlexBox"
+                    height="100px"
+                    alignItems="Center"
+                    justifyContent="Center">
+                    <Button id="_IDGenButton1" text="{i18n>buttonText}" type="Emphasized" 
+                    class="sapUiSmallMarginEnd" press=".onPress" />
+                </FlexBox>
+            </Panel>
+    </Page>
+</mvc:View>
