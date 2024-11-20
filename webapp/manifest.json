@@ -85,20 +85,20 @@
       },
       "routes": [
         {
-          "name": "RouteView1",
+          "name": "RouteProducts",
           "pattern": ":?query:",
           "target": [
-            "TargetView1"
+            "TargetProducts"
           ]
         }
       ],
       "targets": {
-        "TargetView1": {
+        "TargetProducts": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "View1",
-          "viewName": "View1"
+          "viewId": "Products",
+          "viewName": "Products"
         }
       }
     },

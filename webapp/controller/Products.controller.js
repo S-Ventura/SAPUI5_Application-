@@ -4,7 +4,7 @@ sap.ui.define([
 ],
 function (Controller, MessageBox) {
     "use strict";
-    return Controller.extend("sap.btp.project1.controller.View1", {
+    return Controller.extend("sap.btp.project1.controller.Products", {
         onInit: function () {
             this.i18n = this.getOwnerComponent().getModel("i18n").getResourceBundle();
         },
